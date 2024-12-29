@@ -1,0 +1,167 @@
+.app-download {
+    margin: 100px auto;
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 500;
+    
+}
+.app-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+    margin-top: 40px;
+}
+.app-download-platforms img{
+   width:max(30vw,120px);
+   max-width: 180px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.app-download-platforms img:hover{
+    transform: scale(1.05);
+ }
+/*mô tả sp*/
+.food-order-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px
+  }
+  
+  .text-section {
+    flex: 1;
+    padding-right: 20px;
+    align-items: flex-start;
+  }
+  
+  .text-section h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .text-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .text-section li {
+    font-size: 14px;
+    line-height: 1.8;
+    
+  }
+  
+  .video-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .food-video {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+/* Video thứ nhất */
+.food-video:first-child {
+    transform: translateY(20px); /* Đẩy video xuống một chút */
+  }
+  
+  /* Video thứ hai */
+  .food-video:last-child {
+    transform: translateY(-20px); /* Đẩy video lên một chút */
+  }
+/*khuyến mãi*/
+ .container {
+    display: flex;
+    width: 100%;
+    height: 300px; /* Điều chỉnh chiều cao phù hợp */
+    gap: 10px;
+    margin-bottom: 80px
+  }
+  
+  .left-section {
+    width: 30%;
+    position: relative;
+    margin-right: 5px;
+  }
+  .tea-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo video không bị méo */
+    border-radius: 5px; /* Nếu bạn muốn bo góc */
+  }
+  
+  
+  .discount-label {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background-color: #3b141c;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .right-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+  }
+  
+  .top-box {
+    height: 70%;
+    background: url('./br.jpg') no-repeat center center/cover; /* Chèn ảnh nền ở đây */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+  }
+  
+  .top-banner-text {
+    text-align: center;
+  }
+  
+  .top-banner-text .highlight {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .top-banner-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: #f7a91d;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .bottom-box {
+    height: 30%;
+    background-color: #3b141c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .bottom-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
